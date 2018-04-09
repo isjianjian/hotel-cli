@@ -38,4 +38,27 @@
     height: 34px!important;
     line-height: 34px;
   }
+  .vux-flexbox {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    align-items: start;
+  }
+
+</style>
+
+<style>
+  .weui-cells:before{
+    border-top: 0px!important;
+  }
+
+  .weui-cells__title{
+    padding-left: 0px!important;
+  }
+
+  .weui-cells:after{
+    border-bottom: 0px!important;
+  }
+  ._v-container{
+    position: relative!important;
+  }
 </style>

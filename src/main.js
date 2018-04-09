@@ -18,18 +18,17 @@ import ctrl from './components/ctrl/index'
 import { Checker, CheckerItem } from 'vux'
 import { ViewBox } from 'vux'
 import { Flexbox, FlexboxItem } from 'vux'
-import { Scroller } from 'vux'
+// import { Scroller } from 'vux'
 import { Tab, TabItem } from 'vux'
 import { Group } from 'vux'
 import { Toast } from 'vux'
-import VueVirtualScroller from 'vue-virtual-scroller'
-import 'vue-virtual-scroller/dist/vue-virtual-scroller.css'
-Vue.use(VueVirtualScroller)
+ import VueScroller from 'vue-scroller'
+Vue.use(VueScroller)
 Vue.component('toast', Toast)
 Vue.component('group', Group)
 Vue.component('tab', Tab)
 Vue.component('tab-item', TabItem)
-Vue.component('scroller', Scroller)
+// Vue.component('scroller', Scroller)
 Vue.component('flexbox', Flexbox)
 Vue.component('flexbox-item', FlexboxItem)
 Vue.component('view-box', ViewBox)
